@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "build",
+    "module": "commonjs",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "target": "ES2020",
+    "noResolve": false,
+    "esModuleInterop": true
+  }
+}

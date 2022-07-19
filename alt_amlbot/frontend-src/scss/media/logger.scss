@@ -1,0 +1,29 @@
+.admin-media-logger {
+  background-color: #101010;
+  height: 400px;
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgba(101, 101, 101, 0.3);
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.admin-media-logger__element {
+  color: #dbdbdb;
+}
+
+.admin-media-logger__status {
+  color: #87CA00;
+
+  &.admin-media-logger__status_error {
+    color: #ff0000;
+  }
+}
+
+.admin-media-logger__label {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.admin-media-logger__divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
